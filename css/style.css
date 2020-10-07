@@ -3,3 +3,17 @@
   border: 1px solid black;
   height: 100px;
 }
+/* -------------------- */
+
+
+.blue {
+  background-color: #1f47fd;
+}
+
+.dark {
+  background-color: #05154c;
+}
+
+.grey {
+  background-color: #f4f5f9;
+}
