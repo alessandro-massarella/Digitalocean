@@ -1,0 +1,5 @@
+/* ---D E B U G--- */
+.debug [class*="col-"] {
+  border: 1px solid black;
+  height: 100px;
+}
