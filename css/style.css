@@ -79,7 +79,7 @@ header img {
 
 
 /* -----S E C T I O N 2 - MAIN */
-ul > li {
+.section_2 ul > li {
   display: block;
   height: 50px;
   border-left: 1px solid grey;
@@ -128,4 +128,23 @@ ul > li {
 }
 .section_7 .btn {
   color: #2f69fe;
+}
+
+/* ----FOOTER----- */
+footer p {
+  color: grey;
+}
+footer .logo_ocean {
+  margin-bottom: 20px;
+
+
+}
+
+footer ul > li {
+  list-style: none;
+  color: #a9aebe;
+  padding: 3px;
+}
+footer ul > li strong {
+  color: white;
 }
