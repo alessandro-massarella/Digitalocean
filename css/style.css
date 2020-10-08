@@ -1,12 +1,15 @@
 /* ---D E B U G--- */
-.debug [class*="col-"] {
-  border: 1px solid black;
+/* .debug [class*="col-"] {
+  border: 1px solid black; */
   /* height: 100px; */
 }
 /* -------------------- */
-
-.margin_top {
-  margin-top: 10px;
+.padding_20 {
+  padding: 20px;
+}
+.margin_top_bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .blue {
   background-color: #1f47fd;
@@ -64,4 +67,26 @@ header img {
 .form_email h3:last-child {
   color: #2f69fe;
   font-weight: bold;
+}
+
+
+/* -----S E C T I O N 2 - MAIN */
+ul > li {
+  display: block;
+  height: 50px;
+  border-left: 1px solid grey;
+  color: grey;
+  line-height: 50px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+
+/* -----S E C T I O N 3 - MAIN */
+.section_3 img {
+  width: 50%;
+}
+
+.section_3 [class*="fa-angle"] {
+  font-size: 6rem;
 }
