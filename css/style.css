@@ -90,3 +90,19 @@ ul > li {
 .section_3 [class*="fa-angle"] {
   font-size: 6rem;
 }
+
+/* -----S E C T I O N 5 - MAIN */
+.section_5 {
+  color: white;
+}
+.section_5 a {
+  color: #56bbcc;
+}
+
+.section_5 .city .row [class*="col-"] .row [class*="col-"] {
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+.section_5 .city .row [class*="col-"] .row [class*="col-"] :last-child {
+  border-bottom: unset;
+}
