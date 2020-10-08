@@ -11,6 +11,14 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.margin_bottom {
+  margin-bottom: 50px;
+}
+
+.fa-circle {
+  color: #1f47fd;
+}
 .blue {
   background-color: #1f47fd;
 }
@@ -103,6 +111,21 @@ ul > li {
   border-bottom: 1px solid white;
   padding: 5px;
 }
-.section_5 .city .row [class*="col-"] .row [class*="col-"] :last-child {
-  border-bottom: unset;
+
+/* -----S E C T I O N 6 - MAIN */
+.rockerbox {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.section_6 [class*="fa-angle"] {
+  font-size: 6rem;
+}
+
+/* -----S E C T I O N 7 - MAIN */
+.section_7 h1 {
+  color: white;
+}
+.section_7 .btn {
+  color: #2f69fe;
 }
