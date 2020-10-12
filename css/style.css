@@ -7,6 +7,11 @@
 .padding_20 {
   padding: 20px;
 }
+
+.padding_40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .margin_top_bottom {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -31,6 +36,10 @@
   background-color: #f4f5f9;
 }
 
+.flex {
+  display: flex;
+}
+
 /* ridimensiono logo digital ocean */
 header img {
   width: 40%;
@@ -42,6 +51,7 @@ header img {
   font-weight: bold;
 }
 
+
 .jumbotron  {
   background-image: url(../img/bg-home.svg);
   background-position: center;
@@ -50,10 +60,15 @@ header img {
 
 .jumbotron h1 {
   color: white;
+  font-size: 5rem;
 }
 
 .jumbotron small {
   color: #c0cefe;
+}
+
+.jumbotron {
+  font-size: 1rem;
 }
 
 
@@ -77,6 +92,14 @@ header img {
   font-weight: bold;
 }
 
+/* -----S E C T I O N 1 - MAIN */
+/* .section_1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+} */
+
+
+
 
 /* -----S E C T I O N 2 - MAIN */
 .section_2 ul > li {
@@ -98,7 +121,9 @@ header img {
 .section_3 [class*="fa-angle"] {
   font-size: 6rem;
 }
-
+/* .section_3 .row .flex. .fa {
+  align-self: center;
+} */
 /* -----S E C T I O N 5 - MAIN */
 .section_5 {
   color: white;
@@ -122,6 +147,10 @@ header img {
   font-size: 6rem;
 }
 
+.section_6 h2 {
+  padding-bottom: 40px;
+}
+
 /* -----S E C T I O N 7 - MAIN */
 .section_7 h1 {
   color: white;
@@ -136,8 +165,11 @@ footer p {
 }
 footer .logo_ocean {
   margin-bottom: 20px;
+}
 
-
+footer .social {
+  filter: invert(10);
+  padding: 5px;
 }
 
 footer ul > li {
